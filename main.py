@@ -6,10 +6,10 @@ def main():
 
     print("Welcome to the gimp xyz")
     print(canvas.show())
-    print("Operations: Show, Add, Delete, Rotate, Resize")
+    print("Operations: Show, Add, Delete")
 
     while True:
-        operacion = input("Ingrese una operación (Show, Add, Delete, Rotate o Resize): ")
+        operacion = input("Ingrese una operación (Show, Add, Delete): ")
         operacion = operacion.capitalize()
 
         if operacion == "Add":
